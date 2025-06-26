@@ -1,0 +1,6 @@
+
+gradio
+transformers
+pandas
+scikit-learn
+hugging face
