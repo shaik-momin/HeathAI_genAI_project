@@ -1,0 +1,11 @@
+>>>This project showcases HealthAI, an intelligent healthcare assistant built using Gradio and Hugging Face Transformers.
+Features include:
+
+🤖 AI Doctor Chat (LLM-powered)
+
+🔍 Symptom-based Disease Prediction (Rule-Based)
+
+💊 Automated Treatment Plan Generator
+The entire app runs in Google Colab and uses lightweight open-source models like google/flan-t5-base for efficient performance.
+
+DEMO link :https://drive.google.com/file/d/1--FoyidDkLsffsiXvU2B2jcu3AZGFfm_/view?usp=drivesdk
