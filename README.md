@@ -6,7 +6,7 @@ It empowers users to interact with an AI-powered medical chatbot, predict diseas
 ---
 
 ## 📽️ Demo Video  
-👉 [Watch Full Demo](#) *(Insert your YouTube or Drive link here)*  
+👉 https://drive.google.com/file/d/1--FoyidDkLsffsiXvU2B2jcu3AZGFfm_/view?usp=drivesdk
 
 ---
 
@@ -43,15 +43,6 @@ This project uses:
 - **Google Colab** – runtime and development environment  
 - **Pandas**, **Scikit-learn** – (for optional ML and data handling)
 
----
-
-## 🖼️ Screenshots *(optional)*
-
-> ![Chat Interface](screenshots/chat_tab.png)  
-> *AI Doctor Chat UI*
-
-> ![Disease Prediction](screenshots/disease_tab.png)  
-> *Symptom-based diagnosis section*
 
 ---
 
@@ -95,15 +86,15 @@ You are free to reuse, modify, and distribute with credits.
 
 - [Hugging Face](https://huggingface.co/) for providing open-source LLMs  
 - [Gradio](https://gradio.app/) for making AI UI simple  
-- Built by **Shaik Momin** ([@mominshaik24](https://github.com/mominshaik24))
+- Built by **Shaik Momin** ([@mominshaik24](https://github.com/mominshaik))
 
 ---
 
 ## 📬 Contact
 
 For collaborations or suggestions:  
-📧 Email: *[your email]*  
-📱 LinkedIn: [linkedin.com/in/your-profile](#)
+📧 Email: mominshaik801@gmail.com  
+📱 LinkedIn: linkedin/mominshaik
 
 ---
 
