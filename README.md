@@ -1,61 +1,109 @@
-# 🧠 HealthAI - Intelligent Disease Predictor
+# 🧠 HealthAI: Intelligent Medical Assistant using Gradio & Hugging Face
 
-HealthAI is a smart healthcare assistant that predicts possible diseases based on user-input symptoms and provides relevant information such as symptom descriptions, precautions, and severity levels. This offline application is built using Python and machine learning with Gradio for an interactive user interface.
-
----
-
-## 🚀 Features
-
-- ✅ Predicts disease from symptoms (Naive Bayes model)
-- ✅ Describes each symptom with details
-- ✅ Suggests home-based precautions
-- ✅ Shows severity rating for each symptom
-- ✅ Fully offline – no API needed
-- ✅ Interactive UI using Gradio
+**HealthAI** is a smart, lightweight, and interactive AI healthcare assistant built using **Gradio** and **Hugging Face Transformers**.  
+It empowers users to interact with an AI-powered medical chatbot, predict diseases based on symptoms, and receive basic treatment suggestions — all inside a single app, hosted on **Google Colab**.
 
 ---
 
-## 📊 Datasets Used (from Kaggle)
-
-1. **dataset.csv** – Contains training data with symptoms and related disease labels  
-2. **symptom_Description.csv** – Description of each symptom  
-3. **symptom_precaution.csv** – Preventive steps to take for each symptom  
-4. **Symptom-severity.csv** – Numerical severity weight for each symptom  
+## 📽️ Demo Video  
+👉 [Watch Full Demo](#) *(Insert your YouTube or Drive link here)*  
 
 ---
 
-## 🛠️ Tech Stack
+## 🔍 Project Overview
 
-- Python
-- Pandas, NumPy
-- scikit-learn
-- Gradio (UI Framework)
-- Machine Learning – Naive Bayes
+In many rural or underserved areas, quick access to basic medical advice is still a challenge.  
+**HealthAI** was developed to bridge that gap using modern AI models and open-source tools.
 
----
-
-## 💻 How to Run
-
-1. Clone this repo or upload files to Google Colab
-2. Upload the following files to your Colab environment:
-   - `dataset.csv`
-   - `symptom_Description.csv`
-   - `symptom_precaution.csv`
-   - `Symptom-severity.csv`
-3. Run the `main.py` or Colab notebook
-4. Gradio will provide a public URL where you can interact with the app
+This project uses:
+- A **lightweight language model** (like `flan-t5-base`) to simulate basic medical interaction
+- A **rule-based logic** for quick disease prediction
+- A **LLM-backed treatment suggestion system**
+- A clean and simple **Gradio UI**, runnable directly in the browser
 
 ---
 
-## 🖼️ Sample Screenshot
+## 🚀 Key Features
 
-![HealthAI Screenshot](your_screenshot_image_here)
+| Feature | Description |
+|--------|-------------|
+| 🧠 AI Medical Chatbot | Talk to an AI-powered virtual doctor |
+| 🔎 Symptom-based Diagnosis | Enter symptoms and get a possible diagnosis |
+| 💊 Treatment Planner | Receive AI-generated treatment suggestions |
+| 📈 Lightweight & Fast | Runs in Colab using light LLMs (good for limited compute) |
+| ☁️ No Deployment Needed | Can be launched instantly with `gradio.launch()` |
 
 ---
 
-## 📦 Requirements
+## 🧑‍💻 Technologies Used
 
-Install these dependencies before running the project:
+- **Python** 🐍  
+- **Gradio** – for interactive web UI  
+- **Hugging Face Transformers** – for LLMs and text generation  
+- **Google Colab** – runtime and development environment  
+- **Pandas**, **Scikit-learn** – (for optional ML and data handling)
 
-```bash
-pip install pandas numpy scikit-learn gradio
+---
+
+## 🖼️ Screenshots *(optional)*
+
+> ![Chat Interface](screenshots/chat_tab.png)  
+> *AI Doctor Chat UI*
+
+> ![Disease Prediction](screenshots/disease_tab.png)  
+> *Symptom-based diagnosis section*
+
+---
+
+## ⚙️ How to Run in Google Colab
+
+1. Open the Colab notebook: `HealthAI_Colab.ipynb`
+2. Install dependencies:
+    ```python
+    !pip install gradio transformers pandas scikit-learn
+    ```
+3. Paste your Hugging Face token:
+    ```python
+    import os
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "your_token_here"
+    ```
+4. Launch the app:
+    ```python
+    demo.launch(share=True)
+    ```
+
+---
+
+## 🌱 Future Improvements
+
+- ✅ Add real ML model for symptom-based prediction  
+- ✅ Visualize health metrics with Plotly charts  
+- ⏳ Patient report upload & PDF download  
+- ⏳ User authentication system  
+- ⏳ Deploy to Hugging Face Spaces or Streamlit Cloud
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+You are free to reuse, modify, and distribute with credits.
+
+---
+
+## 🙌 Acknowledgements
+
+- [Hugging Face](https://huggingface.co/) for providing open-source LLMs  
+- [Gradio](https://gradio.app/) for making AI UI simple  
+- Built by **Shaik Momin** ([@mominshaik24](https://github.com/mominshaik24))
+
+---
+
+## 📬 Contact
+
+For collaborations or suggestions:  
+📧 Email: *[your email]*  
+📱 LinkedIn: [linkedin.com/in/your-profile](#)
+
+---
+
